@@ -56,9 +56,9 @@ sales_by_year = filtered.groupby('Year')['Global'].sum().reset_index()
 year_chart = alt.Chart(sales_by_year).mark_line(point=True).encode(
     x='Year',
     y=alt.Y('Global', title='Global Sales'),
-    tooltip=['Year', 'Global']
+    tooltip=['Year', 'Global (millions)']
 ).properties(
-    title='Global Sales by Year'
+    title='Global Video Game Sales by Year'
 )
 
 st.altair_chart(year_chart, use_container_width=True)

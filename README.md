@@ -74,18 +74,22 @@ As I chose my own dataset there was no business requirements that came with it. 
 
 ![alt text](/Images/output5.png)
 
-## *Project Plan**
+## **Project Plan**
 
 ![alt text](/Images/ProjectBoard.png)
 
-### *Steps Taken** 
+### **Steps Taken** 
 
 The analysis had followed a structured approach: 
 
 **1. Data Collection** - The dataset was sourced from Kaggle and made into the CSV format.
+
 **2. Data Cleaning and Processing** - Steps taken in this were checking data types, locating missing values, checking for duplicates.
+
 **3. Exploratory Data Analysis(EDA)** - Descriptive and reasonable statistics.
+
 **4. Data Storage & Exportation** - The cleaned dataset was saved as (/Data/vgsales_cleaned.csv).
+
 **5. Analyis & Interpretation** - A variation of data was analysed using a range of charts and machine learning to answer hypotheses and predict future statistics.
 
 ## **Analysis Techniques Used:**
@@ -164,6 +168,10 @@ I was having issues with the deployment of my Streamlit which took a huge toll o
 * Microsoft Copilot which has supported me with my visuals and troubleshooting errors I have encountered throuhgout the project especially my dashboarding and deployment.
 * Kaggle which I had resourced my dataset from to create my project.
 * I used previous projects supplied by my coach to inspire my project layout.
+
+### **Future Improvements**
+
+* Improve visuals, fix and develop dashboarding further, and improve machine learning techniques and their descriptions, include machine learning visuals in ReadMe.
 
 ## **Acknowledgments**
 

@@ -1,5 +1,6 @@
 # **Video Game Sales Analysis**
-![Gaming setup](https://your-image-url.com/image.png)
+![Alt text](/Images/image.png)
+
 
 ## Contents
 

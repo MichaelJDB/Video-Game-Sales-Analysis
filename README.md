@@ -1,7 +1,6 @@
 # **🎮 Video Game Sales Analysis**
 ![Alt text](/Images/image.png)
 
-
 ## Contents
 
 Project Checkpoints
@@ -89,4 +88,83 @@ The analysis had followed a structured approach:
 **4. Data Storage & Exportation** - The cleaned dataset was saved as (/Data/vgsales_cleaned.csv).
 **5. Analyis & Interpretation** - A variation of data was analysed using a range of charts and machine learning to answer hypotheses and predict future statistics.
 
+## **Analysis Techniques Used:**
 
+The analysis combined descriptive statistics, data visualisation, and exploratory data analysis (EDA).
+
+**Descriptive statistics** (mean, median, counts) were used to summarize sales across genres, platforms, and regions.
+
+|**Data visualiwation** with Altair, Matplotlib, Seaborn, and Plotly provided interactive charts to reveal trends over time and highlight top publishers.
+
+**Correlation analysis** was applied to explore relationships between review scores and sales.
+
+**Machine learning models** (e.g., scikit‑learn regression) were tested to predict sales based on features like genre, platform, and critic scores.
+
+### **Limitations:**
+
+* Sales data is historical and may not reflect current market dynamics.
+
+* Missing or inconsistent values (e.g., publisher names, regional sales) reduced model accuracy.
+
+* Regression models struggled with categorical variables like genre, platform, global without careful encoding and time.
+
+## **Use of Generative AI Tools**
+
+**Ideation:** Brainstorming ideas with charts and dashboarding - to support and develop further on my original ideas(hypotheses)
+**Troubleshooting:** Fix or find work around errors especially with my Streamlit deployment.
+**General Queries:** Answer or provide support for small tasks that I didn't know or forgot parts of.
+**Visualisation** Improving and helping with code for my dashboarding and machine learning.
+
+## **Ethical Considerations** 
+
+**Data Completeness and Representation:** The dataset may overrepresent certain regions (North America, Europe) while also underrepresenting others (Japan, Rest of the World). This creates a risk of bias is conclusions become generalised. 
+
+**Genre and Platform Categorisation:** Broad categories like "Action" "Puzzle" may cover up suber-genre diversity leading to simplified oversights. 
+
+**Temporal Bias:** Older game titles may lack complete sales or review data which brings focus to more recent releases.
+
+**Publisher Dominance:** Large publishers with more titles will appear more successful than more recent ones.
+
+**Ethical Use of Insights:** Stakeholders must avoid misuising the dashboard to justify exclusions of genres or regions, which can take an effect on diversity in the gaming industry.
+
+### **How To Mitigate These**
+
+* Normalise sales by region to compare popularity rather than raw totals.
+* Aggregating data into broader time ranges to smooth gaps and reduce noise.
+* Using visulisation to highlight diversity instead of relying on predictive models.
+* Ensure the use of the dashboard is appropiate. 
+
+## **Unfixed Bugs**
+
+I was having issues with the deployment of my Streamlit which took a huge toll on my time with the rest of the project's progress. The deployment of the dashboard either needs fixing or another app will need to be created for the dashboarding like Tableu or Heroku but these will have to be completed in the future due to the deadline.
+
+## **Libraries Used**
+
+| Library            | Purpose                                                                 |
+|--------------------|-------------------------------------------------------------------------|
+| **numpy**          | Numerical computing, arrays, and mathematical operations                |
+| **pandas**         | Data manipulation and analysis                                          |
+| **matplotlib**     | Static plotting and visualization                                      |
+| **seaborn**        | Statistical data visualization built on matplotlib                     |
+| **plotly**         | Interactive charts and dashboards                                      |
+| **streamlit**      | Framework for building interactive data apps and dashboards            |
+| **altair**         | Declarative statistical visualization library                          |
+| **feature-engine** | Feature engineering tools for machine learning                         |
+| **imbalanced-learn** | Handling imbalanced datasets in machine learning                      |
+| **scikit-learn**   | Machine learning algorithms and preprocessing                          |
+| **xgboost**        | Gradient boosting machine learning library                             |
+| **ydata-profiling** | Automated exploratory data analysis (profiling reports)                |
+| **ppscore**        | Predictive power score for feature relevance                           |
+| **yellowbrick**    | Machine learning visualization toolkit                                 |
+| **Pillow**         | Image processing library                                               |
+
+## **Credits**
+
+* The Code Institute LMS which provided me with the knowledge in order to use to the libraries and sources in this project as well as being a resource for checking my work.
+* Microsoft Copilot which has supported me with my visuals and troubleshooting errors I have encountered throuhgout the project especially my dashboarding and deployment.
+* Kaggle which I had resourced my dataset from to create my project.
+* I used previous projects supplied by my coach to inspire my project layout.
+
+## **Acknowledgments**
+
+* Special Thanks to my work coaches: Emma Lamont, Mark Briscoe, Neil, and my previous coach Spencer Barriball for all the support, knowledge and encouragement they have given me!
